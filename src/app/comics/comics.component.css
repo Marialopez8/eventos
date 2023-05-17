@@ -1,9 +1,10 @@
 .comics{
     margin-top: 2px;
     padding: 30px;
+    margin-left: 1px;
 }
 .imagenes{
-    width: 300px;
+    width: 250px;
     top: 10px;
     left: 10px;
 }
@@ -12,8 +13,9 @@
     background-color: rgba(120, 9, 9, 0.679);
     height: auto;
     font-size: 4pt;
-    width: 320px;
+    width: 270px;
     top: 40%;
+    margin-left: 1px
 }
 .letra{
     font-size: 10pt;
