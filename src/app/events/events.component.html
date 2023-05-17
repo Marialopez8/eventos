@@ -10,7 +10,7 @@
         <div fxLayout="row wrap">
             <div fxFlex="20" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column"
                 *ngFor="let comic of allComics | async">
-                <mat-card class="comic">
+                <mat-card class="comics">
                     <img mat-card-image class="imagenes" src="{{comic.thumbnail.path}}.{{comic.thumbnail.extension}}"
                         alt="{{comic.title}}">
                     <mat-card-title class="letra">
