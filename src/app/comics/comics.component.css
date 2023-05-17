@@ -1,0 +1,49 @@
+.comics{
+    margin-top: 2px;
+    padding: 30px;
+}
+.imagenes{
+    width: 300px;
+    top: 10px;
+    left: 10px;
+}
+
+.comic{
+    background-color: rgba(120, 9, 9, 0.679);
+    height: auto;
+    font-size: 4pt;
+    width: 320px;
+    top: 40%;
+}
+.letra{
+    font-size: 10pt;
+    color: white;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    left: 580px;
+    top: 200px;
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    position: absolute;
+    left: 580px;
+    top: 100px;
+}
+
+body{
+    background-image : url('src\assets\fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+    position: absolute;
+}

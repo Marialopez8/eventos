@@ -1,0 +1,30 @@
+<body>
+
+    <a href="#" class="logo">
+        <img src="assets/Marvel_Logo2.png" alt="Logo de la aplicacion">
+    </a>
+    <h1>Eventos</h1>
+
+
+    <div fxFlex fxLayout="column">
+        <div fxLayout="row wrap">
+            <div fxFlex="20" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column"
+                *ngFor="let comic of allComics | async" class="comics">
+                <mat-card class="comic">
+                    <img mat-card-image class="imagenes" src="{{comic.thumbnail.path}}.{{comic.thumbnail.extension}}"
+                        alt="{{comic.title}}">
+                    <mat-card-title class="letra">
+                        {{comic.title}}
+                        {{comic.description}}
+                    </mat-card-title>
+
+                </mat-card>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
