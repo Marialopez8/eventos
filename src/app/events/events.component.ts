@@ -7,16 +7,16 @@ import { Observable } from 'rxjs';
   styleUrls: ['./events.component.css']
 })
 export class EventsComponent implements OnInit {
-  constructor(private comicSvc: EventsApiService){
+  constructor(private eventSvc: EventsApiService){
   }
-  allComics: Observable<any> | undefined;
+  allEvents: Observable<any> | undefined;
 
   ngOnInit(): void {
-    this.getComics();
+    this.getEvents();
   }
 
-  getComics(){
-    this.allComics = this.comicSvc.getAllComics();
+  getEvents(){
+    this.allEvents = this.eventSvc.getAllEvents();
     }
 
 }
