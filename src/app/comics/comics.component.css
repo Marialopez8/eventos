@@ -1,3 +1,28 @@
+.sidenav-container {
+    background-color: aquamarine;
+    }
+        
+        
+        
+        
+    .sidenav {
+    width: 20px;
+    }
+        
+        
+        
+    .sidenav .mat-toolbar {
+    background: inherit;
+    }
+        
+        
+        
+        
+    .mat-toolbar.mat-primary {
+    position: sticky;
+    z-index: 2;
+    }
+        
 .comics{
     margin-top: 2px;
     padding: 30px;
@@ -15,8 +40,7 @@
     font-size: 4pt;
     width: 80%;
     top: 40%;
-    margin-left: 60%;
-    padding-right: 10%;
+    margin-left: 0%;
     left: 0%;
 
 }
