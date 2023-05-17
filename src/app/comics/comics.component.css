@@ -13,9 +13,12 @@
     background-color: rgba(120, 9, 9, 0.679);
     height: auto;
     font-size: 4pt;
-    width: 270px;
+    width: 80%;
     top: 40%;
-    margin-left: 1px
+    margin-left: 60%;
+    padding-right: 10%;
+    left: 0%;
+
 }
 .letra{
     font-size: 10pt;
