@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { ComicsComponent } from './comics/comics.component';
+import { EventsComponent } from './events/events.component';
 const routes: Routes=[
   {path:'',redirectTo:'/comics',pathMatch:'full'},
-  {path:'comics',component:ComicsComponent},
+  {path:'comics',component:EventsComponent},
 ];
 
 @NgModule({

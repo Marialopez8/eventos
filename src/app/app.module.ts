@@ -9,8 +9,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { ComicComponent } from './comics/comic/comic.component';
-import { ComicsComponent } from './comics/comics.component';
+import { EventComponent } from './events/event/event.component';
+import { EventsComponent } from './events/events.component';
 import { AppRoutingModule } from './app-routing.module';
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -20,8 +20,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   declarations: [
     AppComponent,
     NavbarComponent,
-    ComicComponent,
-    ComicsComponent
+    EventComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

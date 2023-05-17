@@ -1,13 +1,13 @@
 import { Component,OnInit } from '@angular/core';
-import { ComicsApiService } from './comic/shared/comics-api.service';
+import { EventsApiService } from './event/shared/events-api.service';
 import { Observable } from 'rxjs';
 @Component({
   selector: 'app-comics',
-  templateUrl: './comics.component.html',
-  styleUrls: ['./comics.component.css']
+  templateUrl: './events.component.html',
+  styleUrls: ['./events.component.css']
 })
-export class ComicsComponent implements OnInit {
-  constructor(private comicSvc: ComicsApiService){
+export class EventsComponent implements OnInit {
+  constructor(private comicSvc: EventsApiService){
   }
   allComics: Observable<any> | undefined;
 
