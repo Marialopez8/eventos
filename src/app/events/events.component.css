@@ -393,6 +393,8 @@ nav a:hover {
     font-size: 4pt;
     margin-right: 30%;
     margin-top: 10%;
+    margin-bottom: 10%;
+    left: -10%;
 }
 
 body {
@@ -424,10 +426,19 @@ h1 {
 }
 
 .letra{
-    font-size: 10pt;
-    color: white;
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
     width: 200px;
-    margin-left: 10px;
-    line-height: 100%;
+    margin-left: 40px;
+    line-height: 110%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenido{
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 1px;
+    line-height: 120%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

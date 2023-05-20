@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 export class EventsApiService {
   PUBLIC_KEY = '';
   HASH = ''; 
-  URL_API = `https://gateway.marvel.com:443/v1/public/events?ts=1&apikey=b2dfbab623af21346250392176e9b972&hash=b9ba02a8c71af91c7fb810fd38286e8a`;
+  URL_API = `https://4xrpeg4z3gpssoatz7u27cbo2m0ftjsg.lambda-url.us-west-2.on.aws/`;
   constructor(private http: HttpClient) {}
   
     getAllEvents () : Observable<any>{ 
